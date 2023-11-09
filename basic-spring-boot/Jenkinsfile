@@ -29,3 +29,4 @@ pipeline {
                 // (Or you could invoke this step using 'oc' commands!)
                 binaryBuild(buildConfigName: appName, buildFromPath: ".")
             }
+        }
